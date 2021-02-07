@@ -74,7 +74,7 @@ class LoginViewController: UIViewController {
     private let createAccountButton : UIButton = {
         let button = UIButton()
         button.setTitleColor(.label, for: .normal)
-        button.setTitle("New user? Create an Account", for: .normal)
+        button.setTitle("New user? Create an account", for: .normal)
         return button
     }()
     
